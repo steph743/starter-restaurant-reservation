@@ -11,14 +11,14 @@ import "./Layout.css";
  *
  * @returns {JSX.Element}
  */
-function Layout() {
+ function Layout() {
   return (
-    <div className="container-fluid">
-      <div className="row h-100">
-        <div className="col-md-2 side-bar">
+    <div className="res-dash container-fluid">
+      <div className="row min-vh-100 flex-column flex-md-row">
+        <div className="nav-custom col-12 col-md-2 p-0 flex-shrink-1 side-bar">
           <Menu />
         </div>
-        <div className="col">
+        <div className="col bg-white ">
           <Routes />
         </div>
       </div>

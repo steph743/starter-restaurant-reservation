@@ -1,4 +1,26 @@
-.side-bar {
-  background-color: #393a44;
+.nav-custom {
+  background-color: lightpink;
   min-width: 200px;
 }
+
+.nav-item {
+  font-family: monospace;
+}
+
+.res-dash {
+  font-family: monospace;
+}
+
+.create-custom {
+  color: white;
+  font-family: monospace;
+}
+
+.text-custom {
+  font-family: monospace;
+  color: #5E2D51;
+}
+
+
+
+
