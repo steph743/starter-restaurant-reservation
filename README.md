@@ -1,5 +1,34 @@
 # Capstone: Restaurant Reservation System
 
+This interactive application is a fully functioning restaurant reservation system, which will allow restaurant employees to view and edit their upcoming reservations and manage table turnover. 
+
+### Page Navigation and Functionality:
+![Dashboard page view](https://github.com/steph743/starter-restaurant-reservation/blob/main/SS-Dashboard.png)
+
+On the home page, or Dashboard, users can scroll through to view upcoming reservations by date using the "Previous", "Today", and "Next" buttons, and view the available and occupied tables below. On the left hand side is the navigation menu, where users can search for an existing reservation...
+
+![Search page](https://github.com/steph743/starter-restaurant-reservation/blob/main/SS-Search.png)
+
+Create a new reservation...
+
+![Create Reservation page](https://github.com/steph743/starter-restaurant-reservation/blob/main/SS-CreateReservation.png)
+
+Or create a new table:
+
+![Create Table page](https://github.com/steph743/starter-restaurant-reservation/blob/main/SS-CreateTable.png)
+
+### Edit Reservation and Unseat Table
+On the Dashboard, users can also edit the existing reservations. For example, if a customer calls and needs to change the size of their party, this can easily be done on the Edit Reservation page: 
+
+![Edit Reservation page](https://github.com/steph743/starter-restaurant-reservation/blob/main/SS-EditReservation.png)
+
+After a table is finished and ready for the next party, users can click "Finish" next to the occupied table. A window will pop up to confirm that the user wishes to clear the table, as this action cannot be undone. 
+
+![Clear Table confirmation](https://github.com/steph743/starter-restaurant-reservation/blob/main/SS-FinishSeating.png)
+
+Thank you for reading through this README, I hope you enjoy the application! The original project prompt and instructions are listed below.
+
+# Project Prompt & Instructions:
 > You have been hired as a full stack developer at _Periodic Tables_, a startup that is creating a reservation system for fine dining restaurants.
 > The software is used only by restaurant personnel when a customer calls to request a reservation.
 > At this point, the customers will not access the system online.
