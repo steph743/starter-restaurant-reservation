@@ -1,5 +1,7 @@
 # Capstone: Restaurant Reservation System
 
+[Link to Live Preview](https://periodic-tables-client-sd.herokuapp.com/dashboard)
+
 This interactive application is a fully functioning restaurant reservation system, which will allow restaurant employees to view and edit their upcoming reservations and manage table turnover. 
 
 ### Page Navigation and Functionality:
