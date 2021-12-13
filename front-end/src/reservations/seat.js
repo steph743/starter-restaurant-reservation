@@ -69,9 +69,9 @@ export default function SeatReservation(){
 
     return (
     <> 
-        <div className="container p-3 my-2 bg-dark text-white">
+        <div className="container p-3 my-2 nav-custom text-white">
             <div className="row m-5 justify-content-center">
-            <div className="col-4.5  p-3 bg-dark text-white">
+            <div className="col-4.5  p-3 nav-custom text-white">
                 <h1 className="m-3">Seat Reservation</h1>
             </div>
             </div>
@@ -79,14 +79,14 @@ export default function SeatReservation(){
 
         <div className="container p-3 my-2 border border-primary bg-white text-white">
             <div className="row my-3 justify-content-center">
-            <div className="col-5 align-self-center border border-primary p-3 bg-dark text-white">
+            <div className="col-5 align-self-center border border-primary p-3 nav-custom-2 text-white">
                 <div className="row justify-content-center"><h4>{currentReservation.first_name} {currentReservation.last_name}</h4></div>
                 <div className="row justify-content-center"><h4>Party of {currentReservation.people}</h4></div>
             </div>
         </div>
 
         <div className="row my-3 justify-content-center">
-            <div className="col-5 align-self-center border border-primary p-3 bg-dark text-white">
+            <div className="col-5 align-self-center border border-primary p-3 nav-custom-2 text-white">
                 <div className="row justify-content-center"><h4>Phone #: </h4></div>
                 <div className="row justify-content-center"><h4>{currentReservation.mobile_number}</h4></div>
             </div>
@@ -94,16 +94,16 @@ export default function SeatReservation(){
         
         
         </div>
-        <div className="container p-3 my-2 bg-dark text-white">
+        <div className="container p-3 my-2 nav-custom text-white">
             <div className="row mb-2 justify-content-center">
-                <div className="col-2.5 p-3 bg-dark text-white">
+                <div className="col-2.5 p-3 nav-custom text-white">
                 <h2>Select Table </h2>
                 </div>
             </div>
         
             <div className="row justify-content-center">
             
-                <div className="col-4.5 m-2 p-3 border border-primary bg-dark text-white">
+                <div className="col-4.5 m-2 p-3 border border-primary nav-custom-2 text-white">
                     <form>
                     <label className="">Table#</label>
                     <select name="table_id" onChange={handleChange} value={selectedTableID} className="form-select form-select-lg mb-2" >

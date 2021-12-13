@@ -61,9 +61,9 @@ export default function EditReservation(){
     };
     
     return (<>
-        <div className="container p-3 my-2 bg-dark text-white">
+        <div className="nav-custom container p-3 my-2 text-white">
             <div className="row m-5 justify-content-center">
-                <div className="col-4.5  p-3 bg-dark text-white">
+                <div className="col-4.5  p-3 nav-custom text-white">
                     <h1 className="m-3">Edit a Reservation</h1>
                 </div>
             </div>
