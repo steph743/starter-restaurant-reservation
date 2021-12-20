@@ -66,7 +66,7 @@ function hascapacity(req, res, next){
     res.locals.capacity = capacity;
     return next();
   };
-  next({status: 400, message:"capacity is missing"});
+  next({status: 400, message:"capacity should be at least 1"});
 };
 
 function hasReservId(req, res, next){
@@ -103,7 +103,7 @@ function hasCap(req, res, next){
   const capacity = res.locals.table.capacity;
 
   if(capacity < people ){
-    return next({status:400, message: "not enough capacity"});
+    return next({status:400, message: "Not enough capacity"});
   };
   next()
 };
@@ -112,7 +112,7 @@ function isOccupied(req, res, next){
   const table = res.locals.table
   
   if(table.occupied === true){
-    return next({status:400, message: "table is occupied"})
+    return next({status:400, message: "Table is occupied"})
   };
   next();
 };

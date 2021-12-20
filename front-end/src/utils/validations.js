@@ -59,3 +59,6 @@ export function validateSeating(table, people, errors){
 
     return true;
 };
+
+
+
