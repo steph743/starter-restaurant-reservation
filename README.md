@@ -1,6 +1,6 @@
 # Capstone: Restaurant Reservation System
 
-[Link to Live Preview](https://periodic-tables-frontend-sd.herokuapp.com/dashboard)
+[Link to Live Preview](https://front-end-eight-gamma.vercel.app/dashboard)
 
 This interactive application is a fully functioning restaurant reservation system, which will allow restaurant employees to view and edit their upcoming reservations and manage table turnover. 
 
